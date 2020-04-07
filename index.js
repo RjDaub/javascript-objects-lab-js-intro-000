@@ -14,6 +14,6 @@ delete object.key
 }
 
 function destructivelyDeleteFromObjectByKey(object, key, value) {
-delete object[key] = value 
+delete object[key] = value
 return object
 }
